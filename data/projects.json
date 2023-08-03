@@ -34,5 +34,14 @@
     "imageUrl": "/images/project-12.png",
     "tools": "React.js,Tailwind CSS",
     "description": "A Marketplace for buying avatars"
+  },
+  {
+    "id": 5,
+    "title": "Multisender Aptos",
+    "type": "website",
+    "link": "https://multisender3.vercel.app/",
+    "tools": "Next.js,Tailwind CSS,web3.js",
+    "imageUrl": "/images/aptos.png",
+    "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
   }
 ]
