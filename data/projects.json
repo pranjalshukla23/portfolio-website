@@ -43,5 +43,14 @@
     "tools": "Next.js,Tailwind CSS,web3.js",
     "imageUrl": "/images/aptos.png",
     "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
+  },
+  {
+    "id": 6,
+    "title": "Pitchverse",
+    "type": "website",
+    "link": "https://pit-fe.btf-infra.net",
+    "tools": "Next.js,Chakra UI, Nest.js",
+    "imageUrl": "/images/pitchverse.png",
+    "description": "A platform to create campaigns and hire marketing talents"
   }
 ]
