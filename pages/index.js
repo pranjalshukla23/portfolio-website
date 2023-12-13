@@ -28,7 +28,7 @@ export default function Home({ projects }) {
       <Expertise />
       {/* <Featured projects={projects} /> */}
       <Work projects={projects} />
-      {/* <Blogs /> */}
+      <Blogs />
       <Experience />
       <Contact />
     </>

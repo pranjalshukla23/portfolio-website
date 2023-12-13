@@ -55,7 +55,7 @@ export const Header = () => {
               Projects{" "}
             </a>
           </li>
-          {/* <li>
+          <li>
             <a
               href='#blogs'
               className={`hover:text-slate-300 ${
@@ -66,7 +66,7 @@ export const Header = () => {
               {" "}
               Blogs{" "}
             </a>
-          </li> */}
+          </li>
           <li>
             <a
               href='#experience'
