@@ -13,7 +13,11 @@ export const BlogItem = ({ post, profile }) => {
       <div className='group flex flex-col justify-evenly items-center bg-slate-900 rounded-md border-2 border-gray-50 hover:scale-100 hover:cursor-pointer shadow-lg shadow-slate-600 p-2 pt-4 h-72 gap-4 z-10 overflow-hidden'>
         <div className='relative w-11/12 h-3/4'>
           <Image
-            src={post.thumbnail}
+            src={
+              post.thumbnail
+                ? post.thumbnail
+                : "/images/medium_thumbnail_white.png"
+            }
             fill={true}
             alt='thumbnail'
             style={{ objectFit: "fill" }}
