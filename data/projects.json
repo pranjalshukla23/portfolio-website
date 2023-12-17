@@ -46,11 +46,11 @@
   },
   {
     "id": 6,
-    "title": "Pitchverse",
+    "title": "Curativity",
     "type": "website",
     "link": "https://pit-fe.btf-infra.net",
     "tools": "Next.js,Chakra UI, Nest.js",
-    "imageUrl": "/images/pitchverse.png",
+    "imageUrl": "/images/curativity.png",
     "description": "A platform to create campaigns and hire marketing talents"
   }
 ]
