@@ -93,7 +93,11 @@ export const Header = () => {
         </ul>
 
         <button className='hidden md:block bg-gray-800 border-2 border-teal-600 text-white text-lg px-4 py-2 rounded-md'>
-          <a href='/resume-pranjal.pdf' target='_blank' title='Pranjal resume'>
+          <a
+            href='/Pranjal_Shukla_Resume.pdf'
+            target='_blank'
+            title='Pranjal_Shukle_Resume'
+          >
             Resume
           </a>
         </button>
@@ -210,7 +214,7 @@ export const Header = () => {
             <a
               href='/Pranjal_Shukla_Resume.pdf'
               target='_blank'
-              title='Pranjal_Shukla_Resume'
+              title='Pranjal_Shukle_Resume'
             >
               Resume
             </a>
