@@ -208,9 +208,9 @@ export const Header = () => {
           </ul>
           <button className='bg-gray-800 border-2 border-teal-600 text-white text-lg px-4 py-2 rounded-md'>
             <a
-              href='/resume-pranjal.pdf'
+              href='/Pranjal_Shukla_Resume.pdf'
               target='_blank'
-              title='Pranjal resume'
+              title='Pranjal_Shukla_Resume'
             >
               Resume
             </a>
