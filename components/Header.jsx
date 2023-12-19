@@ -64,7 +64,7 @@ export const Header = () => {
               onClick={() => setActiveLink("blogs")}
             >
               {" "}
-              Blogs{" "}
+              Blog{" "}
             </a>
           </li>
           <li>

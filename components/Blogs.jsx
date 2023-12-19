@@ -24,12 +24,6 @@ export const Blogs = () => {
     }, 1000);
   }, []);
 
-  const [profile, setProfile] = useState({
-    name: "Pranjal Shukla",
-    profileImage: "",
-    profileUrl: "",
-  });
-
   const [blog, setBlog] = useState({
     items: [],
     isLoading: true,
@@ -39,27 +33,40 @@ export const Blogs = () => {
   const displayBlogs = () => {
     if (blog.items) {
       return blog.items.map((post, index) => (
-        <BlogItem key={index} post={post} profile={profile} />
+        <BlogItem key={index} post={post} />
       ));
     }
+  };
+
+  const generateThumbnail = (content) => {
+    // Define a regular expression to match the URL inside the 'src' attribute
+    const regex = /<img[^>]+src\s*=\s*['"]([^'"]+)['"][^>]*>/i;
+
+    // Use the regular expression to extract the URL
+    const match = content.match(regex);
+
+    // Check if a match is found and get the URL
+    const imageUrl = match ? match[1] : null;
+
+    return imageUrl;
   };
 
   useEffect(() => {
     axios
       .get(mediumURL)
       .then((info) => {
-        const image = info.data.feed.image;
-        const link = info.data.feed.link;
         const blogs = info.data.items;
-        const posts = blogs.filter((post) => post.categories.length > 0);
+
+        const newBlogs = blogs.map((b) => {
+          return {
+            ...b,
+            thumbnail: generateThumbnail(b.content),
+          };
+        });
+
+        const posts = newBlogs.filter((post) => post.categories.length > 0);
 
         console.log(posts);
-
-        setProfile((prevState) => ({
-          ...prevState,
-          profileUrl: link,
-          profileImage: image,
-        }));
         setBlog({
           items: posts,
           isLoading: false,
@@ -78,7 +85,7 @@ export const Blogs = () => {
         }`}
       >
         <h1 className='font-Anton text-2xl md:text-4xl tracking-widest uppercase'>
-          Blogs
+          Popular Articles
         </h1>
         <div className='grid grid-cols-1 md:grid-cols-3 w-full md:w-4/5 p-8 gap-16'>
           {/* {displayProjects &&

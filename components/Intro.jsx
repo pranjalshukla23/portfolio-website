@@ -26,20 +26,26 @@ export const Intro = () => {
       className='mt-50 text-center relative flex justify-center items-center'
     >
       <div
-        className={` h-screen flex flex-col-reverse md:flex-row justify-center items-center text-white  mt-4 relative mb-8 transition-opacity text-center px-24 gap-4 ${
+        className={` h-screen flex flex-col-reverse justify-center items-center text-white  mt-4 relative mb-8 transition-opacity text-center px-24 gap-4 ${
           showIntro
             ? " opacity-100 duration-500 delay-500 ease-in"
             : " opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
-        <p className='font-Manrope font-bold text-3xl lg:text-5xl leading-relaxed'>
-          I&apos;m <span className='text-teal-400'>Pranjal.</span> I&apos;m a
-          Software engineer, Front end and App Developer at Betaflux.
-        </p>
+        <div>
+          <p className='font-Manrope font-bold text-3xl lg:text-5xl leading-relaxed pb-2'>
+            Hi, I&apos;m <span className='text-teal-400'>Pranjal.</span>
+          </p>
+          <p className='font-Manrope font-medium text-xl lg:text-xl leading-relaxed pb-2 text-slate-200'>
+            I&apos;m a Software engineer, Front end and App Developer at
+            Betaflux.
+          </p>
+        </div>
+
         <Image
           src={"/images/profile-3.jpg"}
           className='rounded-full'
-          width={150}
+          width={180}
           height={100}
         />
       </div>
