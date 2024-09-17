@@ -48,7 +48,7 @@
     "id": 6,
     "title": "Curativity",
     "type": "website",
-    "link": "https://cvt-fe-stg.infra.thepitchverse.tech",
+    "link": "https://www.curativity.in/",
     "tools": "Next.js,Chakra UI",
     "imageUrl": "/images/curativity.png",
     "description": "A platform to create campaigns and hire marketing talents"
