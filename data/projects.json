@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "WriteSphere",
+    "type": "website",
+    "link": "https://github.com/pranjalshukla23/writeSphere",
+    "tools": "Django",
+    "imageUrl": "/images/writesphere.png",
+    "description": "A platform to create blogs and share it across the world"
+  },
+  {
+    "id": 2,
     "title": "OGZ Website",
     "type": "website",
     "link": "https://ogz-website.vercel.app",
@@ -9,7 +18,7 @@
     "description": "A DApp for swapping OGZ Token"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "SpaceX Clone",
     "type": "website",
     "link": "https://spacex-alpha.vercel.app",
@@ -18,7 +27,7 @@
     "description": "A simple spaceX clone built with Next.js and Tailwind CSS"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "NBA Clone",
     "type": "website",
     "link": "https://nba-app-tau.vercel.app",
@@ -27,7 +36,7 @@
     "description": "A simple spaceX clone built with Next.js and Tailwind CSS to show stats related to an NBA team"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Avatar Marketplace",
     "type": "website",
     "link": "https://avatar-marketplace.vercel.app",
@@ -36,7 +45,7 @@
     "description": "A Marketplace for buying avatars"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Multisender Aptos",
     "type": "website",
     "link": "https://multisender3.vercel.app/",
@@ -45,7 +54,7 @@
     "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Curativity",
     "type": "website",
     "link": "https://www.curativity.in/",

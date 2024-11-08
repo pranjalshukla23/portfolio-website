@@ -37,13 +37,13 @@ export const Intro = () => {
             Hi, I&apos;m <span className='text-teal-400'>Pranjal.</span>
           </p>
           <p className='font-Manrope font-medium text-xl lg:text-xl leading-relaxed pb-2 text-slate-200'>
-            I&apos;m a Software engineer, Front end and App Developer at
-            Betaflux.
+            I&apos;m a Software engineer, Python Developer at
+            Live Data Solutions.
           </p>
         </div>
 
         <Image
-          src={"/images/profile-3.jpg"}
+          src={"/images/profile-3.jpeg"}
           className='rounded-full'
           width={180}
           height={100}

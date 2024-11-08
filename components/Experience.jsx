@@ -22,6 +22,48 @@ export const Experience = () => {
           Professional Experience
         </h1>
         <div className="space-y-4 w-full md:w-1/2">
+        <details
+            className="group [&_summary::-webkit-details-marker]:hidden"
+            open
+          >
+            <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8 mx-2">
+              <div className="font-medium text-white text-start text-md w-1/2">
+                Python Developer @ Live Data Solutions
+              </div>
+              <span className="font-medium text-white text-md w-1/2">
+                Oct &apos;24 - present
+              </span>
+
+              <svg
+                className=" h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </summary>
+
+            <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41] mx-2">
+              <li>
+              Developed RESTful APIs using Django framework to enhance system capabilities, integrating external data sources to support various project requirements.
+              </li>
+              <li>Utilized Python and SQL to extract and manipulate data from large databases based on client business queries.</li>
+              <li>
+              Created automated workflows to merge and analyze datasets, delivering insights to support client campaigns and strategic decisions.
+              </li>
+              <li>Provide troubleshooting and technical assistance, ensuring reliable system performance and seamless network operations.</li>
+              <li>
+              Manage technical queries, configure accounts, and maintain system documentation to support smooth workflows.
+              </li>
+            </ul>
+          </details>
           <details
             className="group [&_summary::-webkit-details-marker]:hidden"
             open

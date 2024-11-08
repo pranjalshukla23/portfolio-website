@@ -26,30 +26,26 @@ export const Expertise = () => {
             <h1 className='font-RobotoCondensed font-bold text-xl tracking-widest uppercase mb-4'>
               <i className='fa-brands fa-react text-2xl'></i>
               <span className='underline decoration-4 decoration-blue-500'>
-                Frontend Dev
+                Full Stack Development
               </span>{" "}
               <br />
-              React, NextJS
+              React.JS and Django
             </h1>
             <p>
-              Possessing over two years of hands-on development expertise in
-              prominent JavaScript frameworks such as React, React Native,
-              Ionic, and Next.js. Proficient in leveraging UI libraries
-              including Tailwind CSS, Bootstrap, and Material UI
+            Experienced in building dynamic applications with React, Next.js, Node.js, ExpressJS, and Django. Skilled in creating responsive UIs with Tailwind CSS, Bootstrap, and Material UI, while ensuring seamless backend integration.
             </p>
           </div>
           <div className='border-0 md:border-r-2 md:border-white pr-2'>
             <h1 className='font-RobotoCondensed font-bold text-xl tracking-widest uppercase mb-4'>
               <i className='fa-brands fa-node-js text-2xl'></i>
               <span className='underline decoration-4 decoration-orange-500'>
-                Backend Dev
+                Data Analysis, Visualization
               </span>{" "}
               <br />
-              Node, ExpressJS
+              Python, SQL and Pandas
             </h1>
             <p>
-              Over 2 years of development experience in backend development with
-              Node and ExpressJS.
+            Proficient in SQL, Python, Pandas, Matplotlib and Seaborn to extract and manipulate large datasets. Expertise in automating workflows and delivering actionable insights to drive business decisions and client campaigns.
             </p>
           </div>
           <div>
@@ -59,6 +55,7 @@ export const Expertise = () => {
                 Product Management
               </span>{" "}
               <br />
+              Product roadmap, User research
             </h1>
             <p>
               Proficient in defining product roadmaps, conducting market
