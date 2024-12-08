@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "Django CRM",
+    "type": "website",
+    "link": "https://github.com/pranjalshukla23/CRM",
+    "tools": "Django, Bootstrap CSS",
+    "imageUrl": "/images/django_crm.png",
+    "description": "A Client Management System that seamlessly integrates CRUD functionality for managing client data with ease and efficiency. It provides robust features for creating, reading, updating, and deleting client information, ensuring streamlined operations."
+  },
+  {
+    "id": 2,
     "title": "Puddle (Ecommerce Website)",
     "type": "website",
     "link": "https://github.com/pranjalshukla23/puddle-marketplace",
@@ -9,7 +18,7 @@
     "description": "A platform to post new items to sell in the marketplace and an in-built messaging system for communication"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "WriteSphere",
     "type": "website",
     "link": "https://github.com/pranjalshukla23/writeSphere",
@@ -18,7 +27,7 @@
     "description": "A platform to create blogs and share it across the world"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "OGZ Website",
     "type": "website",
     "link": "https://ogz-website.vercel.app",
@@ -27,7 +36,7 @@
     "description": "A DApp for swapping OGZ Token"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "SpaceX Clone",
     "type": "website",
     "link": "https://spacex-alpha.vercel.app",
@@ -36,7 +45,7 @@
     "description": "A simple spaceX clone built with Next.js and Tailwind CSS"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "NBA Clone",
     "type": "website",
     "link": "https://nba-app-tau.vercel.app",
@@ -45,7 +54,7 @@
     "description": "A simple spaceX clone built with Next.js and Tailwind CSS to show stats related to an NBA team"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Avatar Marketplace",
     "type": "website",
     "link": "https://avatar-marketplace.vercel.app",
@@ -54,7 +63,7 @@
     "description": "A Marketplace for buying avatars"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Multisender Aptos",
     "type": "website",
     "link": "https://multisender3.vercel.app/",
@@ -63,7 +72,7 @@
     "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Curativity",
     "type": "website",
     "link": "https://www.curativity.in/",
