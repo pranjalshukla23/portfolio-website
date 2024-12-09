@@ -64,10 +64,7 @@ export const Experience = () => {
               </li>
             </ul>
           </details>
-          <details
-            className="group [&_summary::-webkit-details-marker]:hidden"
-            open
-          >
+          <details className="group [&_summary::-webkit-details-marker]:hidden">
             <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8 mx-2">
               <div className="font-medium text-white text-start text-md w-1/2">
                 Associate Software Engineer @ BetaFlux
